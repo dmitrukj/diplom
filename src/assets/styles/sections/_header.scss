@@ -1,0 +1,62 @@
+.header__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 70px 170px 100px 170px;
+}
+.header__links1 {
+    font-family: $font;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: $maincolor;
+
+    .link2, .link3, .link4, .link5 {
+        margin-top: 7px;
+        margin-left: 40px;
+    }
+}
+.header__links2 {
+    border: 2px solid $bgcolor;
+    border-radius: 5px;
+    width: 110px;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-left: 425px;
+    
+    .links1 {
+        font-family: $fonta;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 20px;
+        text-align: center;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: $bgcolor;        
+    }
+}
+.header___links3 {
+    border: 2px solid $bgcolor;
+    background-color: $bgcolor;
+    border-radius: 5px;
+    width: 110px;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+
+    .links2 {
+        font-family: $fonta;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 20px;
+        text-align: center;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: $lcolor;
+    }
+}
+
