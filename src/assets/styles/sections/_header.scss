@@ -2,10 +2,16 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 70px 170px 100px 170px;
+    padding: 70px 0px 100px 0px;
+    margin-left: 170px;
+    margin-right: 170px;
 }
-.header__links1 {
-    font-family: $font;
+.header__links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: $f-main;
     font-size: 12px;
     line-height: 20px;
     letter-spacing: 2px;
@@ -13,11 +19,10 @@
     color: $maincolor;
 
     .link2, .link3, .link4, .link5 {
-        margin-top: 7px;
         margin-left: 40px;
     }
 }
-.header__links2 {
+.links__sign__in {
     border: 2px solid $bgcolor;
     border-radius: 5px;
     width: 110px;
@@ -27,7 +32,7 @@
     margin-left: 425px;
     
     .links1 {
-        font-family: $fonta;
+        font-family: $f-main;
         font-style: normal;
         font-weight: 500;
         font-size: 12px;
@@ -38,7 +43,7 @@
         color: $bgcolor;        
     }
 }
-.header___links3 {
+.links__sign__up {
     border: 2px solid $bgcolor;
     background-color: $bgcolor;
     border-radius: 5px;
@@ -46,9 +51,10 @@
     text-align: center;
     padding-top: 8px;
     padding-bottom: 8px;
+    margin-left: 20px;
 
     .links2 {
-        font-family: $fonta;
+        font-family: $f-main;
         font-style: normal;
         font-weight: 500;
         font-size: 12px;
@@ -56,7 +62,7 @@
         text-align: center;
         letter-spacing: 2px;
         text-transform: uppercase;
-        color: $lcolor;
+        color: $bgcolor
     }
 }
 
