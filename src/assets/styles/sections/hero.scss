@@ -1,0 +1,122 @@
+.hero__block {
+  display: flex;
+  flex-direction: row;
+  margin-top: 100px;
+      &__left {
+        display: flex;
+        flex-direction: column;
+        margin-right: 8px;
+      }
+}
+.title {
+  width: 530px;
+  font-family: $f-main;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 50px;
+  color: $col;
+}
+.subtitle {
+  width: 460px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  font-family: $f-main;
+  font-size: 18px;
+  line-height: 22px;
+  color: $pcolor;
+}
+.hero__links {
+  margin-bottom: 60px;
+    .learnMore {
+      width: 150px;
+      border: 2px solid $bgcolor;
+      border-radius: 3px;
+      background-color: $bgcolor;
+
+      font-family: $f-main;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 20px;
+      text-align: center;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: $lcolor;
+      margin-right: 20px;
+
+    }
+    .demo {
+      width: 150px;
+      border: 1px solid #F2994A;
+      box-sizing: border-box;
+      border-radius: 4px;
+
+      font-family: $f-main;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 20px;
+      text-align: center;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: $bgcolor;
+    }
+}
+.hero__content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.hero__content__images {
+  width: 40px;
+  height: 40px;
+  border: 1px solid $bcolor;
+  background: $bcolor;
+  border-radius: 4px;
+}
+.hero__content__text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+    .subtitle2 {
+      width: 380px;
+      margin-bottom: 5px;
+      font-family: $f-second;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 22px;
+      color: $pcolor;
+    }
+  .subtitle3 {
+    font-family: $f-second;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: $ncolor;
+  }
+}
+.hero__bottom {
+  display: flex;
+  flex-direction: row;
+
+  .vector1, .vector2 {
+    width: 380px;
+    height: 560px;
+  }
+}
+.hero__bottom__svg {
+  width: 100%;
+  opacity: 0.1;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+
+
+
+
+
