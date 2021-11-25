@@ -1,0 +1,74 @@
+.increase__business.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 165px;
+
+  .increase__business__cont {
+    display: flex;
+    flex-direction: column;
+
+    .increase__business__title {
+      font-family: $f-main;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 44px;
+      line-height: 50px;
+      color: $col;
+      margin-top: 100px;
+    }
+
+    span {
+      color: $bgcolor;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 42px;
+      line-height: 50px;
+      margin-bottom: 30px;
+    }
+
+      .increase__business__subtitle {
+        width: 470px;
+        margin-left: 0;
+        font-family: $f-main;
+        font-size: 15px;
+        line-height: 28px;
+        letter-spacing: 0.5px;
+        color: $pcolor;
+
+      }
+  }
+}
+.learnMore {
+  width: 150px;
+  border: 2px solid $bgcolor;
+  border-radius: 3px;
+  background-color: $bgcolor;
+
+  font-family: $f-main;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: $lcolor;
+  margin-bottom: 20px;
+  transition: all 0.3s ease;
+}
+
+.learnMore:hover {
+  transform: scale(1.2);
+  box-shadow: 4px 4px 8px 0 rgba(255, 255, 255, 0.2);
+}
+
+.increase__business__right {
+  margin-left: 200px;
+}
+.graphic {
+  width: 450px;
+  height: 450px;
+}
+
+
