@@ -62,7 +62,12 @@
       letter-spacing: 2px;
       text-transform: uppercase;
       color: $bgcolor;
+      transition: all 0.3s ease;
     }
+  .demo:hover {
+    transform: scale(1.2);
+    box-shadow: 4px 4px 8px 0 rgba(255, 255, 255, 0.2);
+  }
 }
 .hero__content {
   display: flex;
