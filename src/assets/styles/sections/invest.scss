@@ -1,0 +1,65 @@
+.invest__row {
+  display: flex;
+  flex-direction: row;
+  margin-top: 85px;
+  margin-bottom: 100px;
+}
+.invest__left.container {
+  display: flex;
+  flex-direction: column;
+
+    h1 {
+      width: 470px;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 42px;
+      line-height: 50px;
+      color: $col;
+      margin-bottom: 30px;
+    }
+
+    span {
+      color: $bgcolor;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 42px;
+      line-height: 50px;
+      margin-bottom: 30px;
+    }
+
+    p {
+      width: 470px;
+      font-family: $f-main;
+      font-size: 15px;
+      line-height: 20px;
+      text-align: start;
+      letter-spacing: 0.2px;
+      color: $pcolor;
+      margin-bottom: 45px;
+    }
+
+  .LearnMore {
+      width: 150px;
+      border: 2px solid $bgcolor;
+      border-radius: 3px;
+      background-color: $bgcolor;
+
+      font-family: $f-main;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 20px;
+      text-align: center;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: $lcolor;
+      margin-top: 40px;
+      margin-bottom: 20px;
+      transition: all 0.3s ease;
+  }
+
+  .LearnMore:hover {
+      transform: scale(1.2);
+      box-shadow: 4px 4px 8px 0 rgba(255, 255, 255, 0.2);
+  }
+}
