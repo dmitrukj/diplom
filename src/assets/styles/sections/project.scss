@@ -1,0 +1,55 @@
+.project.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.project__heading {
+  z-index: 2;
+
+    h1 {
+      width: 770px;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 42px;
+      line-height: 50px;
+      color: $col;
+    }
+
+    span {
+      color: $bgcolor;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 42px;
+      line-height: 50px;
+      margin-bottom: 30px;
+    }
+  .GetStarted {
+      width: 160px;
+      border: 2px solid $bgcolor;
+      border-radius: 3px;
+      background-color: $bgcolor;
+
+      font-family: $f-main;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 20px;
+      text-align: center;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: $lcolor;
+      margin-top: 45px;
+      transition: all 0.3s ease;
+
+}
+
+  .GetStarted:hover {
+      transform: scale(1.2);
+      box-shadow: -11.09px 18.13px 36.6483px rgba(242, 153, 74, 0.23);
+}
+}
+.project__svg {
+  margin-top: -100px;
+  z-index: 1;
+}
