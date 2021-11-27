@@ -1,14 +1,14 @@
+.your__choice.container {
+  margin-top: -300px;
+}
 .your__choice__wrap {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: -300px;
-    .title {
-      margin-left: 300px;
-    }
+  text-align: center;
+
     .subtitle {
       width: 760px;
-      margin-left: 200px;
       margin-bottom: 50px;
     }
 }
@@ -16,8 +16,6 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin-left: 220px;
-  margin-right: 220px;
 }
 .your__choice__column1, .your__choice__column2, .your__choice__column3 {
   display: flex;
@@ -28,11 +26,11 @@
   flex-direction: row;
   margin-bottom: 10px;
 }
-img {
+.column__desc img {
       width: 24px;
       height: 24px;
     }
-h4 {
+.column__desc h4 {
   width: 215px;
   margin-left: 30px;
   font-family: $f;
@@ -40,7 +38,7 @@ h4 {
   line-height: 22px;
   color: $col;
 }
-p {
+.your__choice__column1 p, .your__choice__column2 p, .your__choice__column3 p{
   width: 245px;
   margin-left: 60px;
   margin-bottom: 40px;

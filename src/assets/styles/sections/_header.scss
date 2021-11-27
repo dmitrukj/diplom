@@ -9,6 +9,12 @@
     display: flex;
     align-items: center;
 }
+.header__button {
+    transition: all 0.3s ease;
+}
+.header__button:hover {
+    transform: scale(2);
+}
 .header__links {
     display: flex;
     flex-direction: row;
@@ -23,6 +29,10 @@
 
     .link {
         margin-left: 40px;
+        transition: all 0.3s ease;
+    }
+    .link:hover {
+        transform: scale(1.5);
     }
 }
 .links__sign__in {
@@ -37,6 +47,11 @@
     letter-spacing: 2px;
     text-transform: uppercase;
     color: $bgcolor;
+    transition: all 0.3s ease;
+}
+.links__sign__in:hover {
+    transform: scale(1.2);
+    box-shadow: 4px 4px 8px 0 rgba(255, 255, 255, 0.2);
 }
 .links__sign__up {
     border: 2px solid $bgcolor;
@@ -51,5 +66,11 @@
     letter-spacing: 2px;
     text-transform: uppercase;
     color: $lcolor;
+    transition: all 0.3s ease;
 }
+.links__sign__up:hover {
+    transform: scale(1.2);
+    box-shadow: 4px 4px 8px 0 rgba(255, 255, 255, 0.2);
+}
+
 
