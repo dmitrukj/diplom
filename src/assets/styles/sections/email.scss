@@ -1,0 +1,76 @@
+.email.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -400px;
+  margin-bottom: 135px;
+  width: 940px;
+  height: 320px;
+  border: 2px solid #3C3E7D;
+  background: rgba(60, 62, 125, 0.19);
+  backdrop-filter: blur(134px);
+  border-radius: 5px;
+
+  .email__title {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-family: $f-second;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    color: $bgcolor;
+  }
+
+  .email__subtitle {
+    width: 390px;
+    margin-bottom: 20px;
+    font-family: $f-second;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: $violetcolor ;
+  }
+
+  span {
+    font-family: $f-main;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: $pcolor;
+    margin-top: 15px;
+  }
+}
+.email__box {
+  display: flex;
+  flex-direction: row;
+
+  .email__text {
+    width: 300px;
+    text-align: center;
+    padding: 10px 15px 15px 10px;
+    background: $Whitecolor;
+    opacity: 0.1;
+    border-radius: 5px;
+  }
+}
+.email__btn {
+  border: 2px solid $bgcolor;
+  background-color: $bgcolor;
+  border-radius: 0 5px 5px 0;
+  padding: 8px 27px;
+  font-family: $f-main;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: $lcolor;
+  transition: all 0.3s ease;
+}
+.email__btn:hover {
+  transform: scale(1.5);
+}
