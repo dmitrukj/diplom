@@ -6,7 +6,7 @@
   margin-bottom: 135px;
   width: 940px;
   height: 320px;
-  border: 2px solid #3C3E7D;
+  border: 2px solid $vcolor;
   background: rgba(60, 62, 125, 0.19);
   backdrop-filter: blur(134px);
   border-radius: 5px;
@@ -48,7 +48,7 @@
   display: flex;
   flex-direction: row;
 
-  .email__text {
+  input {
     width: 300px;
     text-align: center;
     padding: 10px 15px 15px 10px;
