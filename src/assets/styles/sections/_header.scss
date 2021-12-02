@@ -1,0 +1,76 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+.header__left {
+    display: flex;
+    align-items: center;
+}
+.header__button {
+    transition: all 0.3s ease;
+}
+.header__button:hover {
+    transform: scale(2);
+}
+.header__links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: $f-main;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: $maincolor;
+
+    .link {
+        margin-left: 40px;
+        transition: all 0.3s ease;
+    }
+    .link:hover {
+        transform: scale(1.5);
+    }
+}
+.links__sign__in {
+    border: 2px solid $bgcolor;
+    border-radius: 5px;
+    text-align: center;
+    padding: 8px 27px;
+    font-family: $f-main;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: $bgcolor;
+    transition: all 0.3s ease;
+}
+.links__sign__in:hover {
+    transform: scale(1.2);
+    box-shadow: 4px 4px 8px 0 rgba(255, 255, 255, 0.2);
+}
+.links__sign__up {
+    border: 2px solid $bgcolor;
+    background-color: $bgcolor;
+    border-radius: 5px;
+    padding: 8px 27px;
+    margin-left: 20px;
+    font-family: $f-main;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: $lcolor;
+    transition: all 0.3s ease;
+}
+.links__sign__up:hover {
+    transform: scale(1.2);
+    box-shadow: 4px 4px 8px 0 rgba(255, 255, 255, 0.2);
+}
+
+
