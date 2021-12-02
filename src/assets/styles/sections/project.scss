@@ -8,7 +8,7 @@
   z-index: 2;
 
     h1 {
-      width: 770px;
+
       font-style: normal;
       font-weight: bold;
       font-size: 42px;
@@ -52,4 +52,23 @@
 .project__svg {
   margin-top: -100px;
   z-index: 1;
+}
+
+@media screen and (max-width: 1040px) {
+  .project__heading h1 {
+    width: 500px;
+  }
+  .project__svg {
+    display: none;
+  }
+}
+@media screen and (max-width: 500px) {
+  .project__heading h1 {
+    width: 300px;
+    font-size: 25px;
+  }
+  .project__heading span {
+    font-size: 25px;
+  }
+
 }
