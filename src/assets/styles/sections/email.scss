@@ -74,3 +74,29 @@
 .email__btn:hover {
   transform: scale(1.5);
 }
+
+
+@media screen and (max-width: 1000px) {
+  .email__images {
+    display: none;
+  }
+  .email.container {
+    width: 500px;
+    border: none;
+    margin-top: 100px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .email.container {
+    width: 90vw;
+    border: none;
+
+    .email__subtitle {
+      width: 150px;
+    }
+  }
+
+  .email__box {
+    width: 320px;
+  }
+}
