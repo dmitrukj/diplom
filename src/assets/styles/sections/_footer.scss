@@ -75,3 +75,35 @@
       color: $greycolor;
     }
 }
+
+@media screen and (max-width: 1020px) {
+  .footer__wrap {
+    margin-top: 100px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .footer__wrap {
+    margin-top: 200px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .footer__wrap {
+    margin-top: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .footer__socials {
+      margin-top: 25px;
+      text-align: center;
+    }
+  }
+  .footer__text {
+    display: none;
+  }
+}
+@media screen and (max-width: 380px) {
+  .footer__wrap {
+    margin-top: 400px;
+  }
+}
